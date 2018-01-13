@@ -1,0 +1,44 @@
+﻿  deploy.cpp
+cpp\deploy.cpp(45): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  main.cpp
+cpp\main.cpp(27): warning C4101: “i”: 未引用的局部变量
+  netSmplx.cpp
+cpp\netSmplx.cpp(204): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  solver_ALNS.cpp
+  solver_candidate_based.cpp
+C:\Users\76407\Desktop\论文\GitRepo\FLNDP_SFC\FLNDP_SFC\header\myCallback.h(117): warning C4018: “>”: 有符号/无符号不匹配
+  solver_main.cpp
+cpp\solver_main.cpp(82): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  solver_origin_mip.cpp
+C:\Users\76407\Desktop\论文\GitRepo\FLNDP_SFC\FLNDP_SFC\header\myCallback.h(117): warning C4018: “>”: 有符号/无符号不匹配
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: int __cdecl GRBException::getErrorCode(void)const " (?getErrorCode@GRBException@@QEBAHXZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const __cdecl GRBException::getMessage(void)const " (?getMessage@GRBException@@QEBA?BV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "class GRBLinExpr __cdecl operator*(double,class GRBVar)" (??D@YA?AVGRBLinExpr@@NVGRBVar@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "class GRBLinExpr __cdecl operator*(class GRBVar,double)" (??D@YA?AVGRBLinExpr@@VGRBVar@@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "class GRBTempConstr __cdecl operator<=(class GRBQuadExpr,class GRBQuadExpr)" (??N@YA?AVGRBTempConstr@@VGRBQuadExpr@@0@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "class GRBTempConstr __cdecl operator>=(class GRBQuadExpr,class GRBQuadExpr)" (??P@YA?AVGRBTempConstr@@VGRBQuadExpr@@0@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBEnv::~GRBEnv(void)" (??1GRBEnv@@QEAA@XZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBEnv::GRBEnv(void)" (??0GRBEnv@@QEAA@XZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBVar::set(enum GRB_DoubleAttr,double)" (?set@GRBVar@@QEAAXW4GRB_DoubleAttr@@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: double __cdecl GRBVar::get(enum GRB_DoubleAttr)const " (?get@GRBVar@@QEBANW4GRB_DoubleAttr@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBModel::setCallback(class GRBCallback *)" (?setCallback@GRBModel@@QEAAXPEAVGRBCallback@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBModel::set(enum GRB_IntParam,int)" (?set@GRBModel@@QEAAXW4GRB_IntParam@@H@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBModel::set(enum GRB_DoubleParam,double)" (?set@GRBModel@@QEAAXW4GRB_DoubleParam@@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: double __cdecl GRBModel::get(enum GRB_DoubleAttr)const " (?get@GRBModel@@QEBANW4GRB_DoubleAttr@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: class GRBConstr __cdecl GRBModel::addConstr(class GRBTempConstr const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?addConstr@GRBModel@@QEAA?AVGRBConstr@@AEBVGRBTempConstr@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: class GRBVar * __cdecl GRBModel::addVars(int,char)" (?addVars@GRBModel@@QEAAPEAVGRBVar@@HD@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBModel::optimize(void)" (?optimize@GRBModel@@QEAAXXZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBModel::~GRBModel(void)" (??1GRBModel@@QEAA@XZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBModel::GRBModel(class GRBEnv const &)" (??0GRBModel@@QEAA@AEBVGRBEnv@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBLinExpr::operator-=(class GRBLinExpr const &)" (??ZGRBLinExpr@@QEAAXAEBV0@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl GRBLinExpr::operator+=(class GRBLinExpr const &)" (??YGRBLinExpr@@QEAAXAEBV0@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBLinExpr::GRBLinExpr(double)" (??0GRBLinExpr@@QEAA@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBLinExpr::GRBLinExpr(class GRBVar,double)" (??0GRBLinExpr@@QEAA@VGRBVar@@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBQuadExpr::GRBQuadExpr(double)" (??0GRBQuadExpr@@QEAA@N@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBQuadExpr::GRBQuadExpr(class GRBLinExpr)" (??0GRBQuadExpr@@QEAA@VGRBLinExpr@@@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "protected: void __cdecl GRBCallback::abort(void)" (?abort@GRBCallback@@IEAAXXZ)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "protected: double * __cdecl GRBCallback::getNodeRel(class GRBVar const *,int)" (?getNodeRel@GRBCallback@@IEAAPEANPEBVGRBVar@@H@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "protected: int __cdecl GRBCallback::getIntInfo(int)" (?getIntInfo@GRBCallback@@IEAAHH@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "protected: double __cdecl GRBCallback::getDoubleInfo(int)" (?getDoubleInfo@GRBCallback@@IEAANH@Z)
+solver_candidate_based.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl GRBCallback::GRBCallback(void)" (??0GRBCallback@@QEAA@XZ)
+C:\Users\76407\Desktop\论文\GitRepo\FLNDP_SFC\FLNDP_SFC\x64\Release\FLNDP_SFC.exe : fatal error LNK1120: 30 个无法解析的外部命令

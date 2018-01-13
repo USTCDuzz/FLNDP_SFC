@@ -1,0 +1,33 @@
+请使用 VS2015打开，需要链接Gurobi的库文件
+
+/cpp : 源文件
+
+main.cpp : 任务调度
+
+solver_main.cpp : 主框架
+solver_origin_mip.cpp : origin method框架
+solver_candidate_based.cpp : LGVS method框架
+deploy.cpp : 与求解关系不大的预处理及其他处理函数
+
+netSmplx.cpp && solver_ALNS : 预处理相关
+
+
+/header : 头文件
+
+myCallback.h : LGVS gurobi的回调函数，LGVS的主要部分
+
+ALNS.h && netSmplx.h : 预处理相关
+fileinfo.h : 文件名处理
+
+gurobi_c.h & gurobi_c++.h ： gurobi头文件
+lib_io.h : 输入输出
+
+linknode.h & solver_main.h : 数据结构及类，函数定义
+
+thpool.h : 线程池
+
+
+
+
+
+
